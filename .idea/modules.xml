@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RxSensorDemo.iml" filepath="$PROJECT_DIR$/RxSensorDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rxsensors/rxsensors.iml" filepath="$PROJECT_DIR$/rxsensors/rxsensors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RxSensors.iml" filepath="$PROJECT_DIR$/.idea/modules/RxSensors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RxSensors.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RxSensors.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RxSensors.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RxSensors.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RxSensors.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RxSensors.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RxSensors.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RxSensors.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rxsensors/RxSensors.rxsensors.iml" filepath="$PROJECT_DIR$/.idea/modules/rxsensors/RxSensors.rxsensors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rxsensors/RxSensors.rxsensors.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/rxsensors/RxSensors.rxsensors.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rxsensors/RxSensors.rxsensors.main.iml" filepath="$PROJECT_DIR$/.idea/modules/rxsensors/RxSensors.rxsensors.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rxsensors/RxSensors.rxsensors.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/rxsensors/RxSensors.rxsensors.unitTest.iml" />
     </modules>
   </component>
 </project>

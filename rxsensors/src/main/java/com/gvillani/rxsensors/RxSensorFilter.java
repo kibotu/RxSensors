@@ -1,7 +1,6 @@
 package com.gvillani.rxsensors;
 
 import android.hardware.SensorEvent;
-import android.support.annotation.IntDef;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -13,6 +12,8 @@ import io.reactivex.functions.Predicate;
 import static android.hardware.SensorManager.SENSOR_STATUS_ACCURACY_HIGH;
 import static android.hardware.SensorManager.SENSOR_STATUS_ACCURACY_LOW;
 import static android.hardware.SensorManager.SENSOR_STATUS_ACCURACY_MEDIUM;
+
+import androidx.annotation.IntDef;
 
 public final class RxSensorFilter {
 
