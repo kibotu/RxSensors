@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "com.gvillani.rxsensordemo"
+    namespace "net.kibotu.rxsensordemo"
     compileSdk compileSdkVer
     buildToolsVersion = buildToolsVer
     defaultConfig {
-        applicationId "com.gvillani.rxsensordemo"
+        applicationId "net.kibotu.rxsensordemo"
         minSdk minSdkVer
         targetSdk targetSdkVer
         versionName version

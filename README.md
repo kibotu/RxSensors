@@ -1,5 +1,7 @@
 # RxSensors
 
+[![Maven Central Version](https://img.shields.io/maven-central/v/net.kibotu/RxSensors)](https://central.sonatype.com/artifact/net.kibotu/RxSensors) [![](https://jitpack.io/v/kibotu/RxSensors.svg)](https://jitpack.io/#kibotu/RxSensors) [![Android CI](https://github.com/kibotu/RxSensors/actions/workflows/android.yml/badge.svg)](https://github.com/kibotu/RxSensors/actions/workflows/android.yml) [![API](https://img.shields.io/badge/Min%20API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) [![API](https://img.shields.io/badge/Target%20API-35%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=35) [![API](https://img.shields.io/badge/Java-17-brightgreen.svg?style=flat)](https://www.oracle.com/java/technologies/javase/17all-relnotes.html) [![Gradle Version](https://img.shields.io/badge/gradle-8.11.1-green.svg)](https://docs.gradle.org/current/release-notes) [![Kotlin](https://img.shields.io/badge/kotlin-2.1.0-green.svg)](https://kotlinlang.org/)
+
 RxSensors is a simple library, RxJava2 compatible, that acts as a wrapper around the Android Sensor's system, converting the stream of sensor data, into a Flowable that emits the same events, so that you can combine more sources of data for more complex operations.
 
 ## Features
@@ -11,22 +13,36 @@ RxSensors is a simple library, RxJava2 compatible, that acts as a wrapper around
 
 ## Usage
 
-### Add library
+# How to install
 
-#### Gradle
+## MavenCentral
 
 ```groovy 
-compile 'com.gvillani:rxsensors:1.0'
-```
-#### Maven
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
 
-```xml 
-<dependency>
-  <groupId>com.gvillani</groupId>
-  <artifactId>rxsensors</artifactId>
-  <version>1.0</version>
-  <type>pom</type>
-</dependency>
+dependencies {
+    implementation 'net.kibotu:SequentialImagePlayer:{latest-version}'
+}
+
+```
+
+## Jitpack
+
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation 'com.github.kibotu:SequentialImagePlayer:{latest-version}'
+}
 ```
 
 ### Acquire stream of sensor data:

@@ -1,10 +1,10 @@
-package com.gvillani.rxsensors;
+package net.kibotu.rxsensors;
 
 import android.content.Context;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 
-import com.gvillani.rxsensors.internal.Preconditions;
+import net.kibotu.rxsensors.internal.Preconditions;
 
 import io.reactivex.Flowable;
 

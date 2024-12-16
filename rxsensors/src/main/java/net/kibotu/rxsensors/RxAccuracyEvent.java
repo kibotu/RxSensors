@@ -1,4 +1,4 @@
-package com.gvillani.rxsensors;
+package net.kibotu.rxsensors;
 
 import android.hardware.Sensor;
 

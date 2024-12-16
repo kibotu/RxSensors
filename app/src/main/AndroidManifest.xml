@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:exported="true"
-            android:name=".MainActivity"
+            android:name="net.kibotu.rxsensordemo.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

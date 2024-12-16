@@ -1,10 +1,10 @@
-package com.gvillani.rxsensors.internal;
+package net.kibotu.rxsensors.internal;
 
 import android.hardware.Sensor;
 
 import androidx.annotation.RestrictTo;
 
-import com.gvillani.rxsensors.exceptions.SensorNotFoundException;
+import net.kibotu.rxsensors.exceptions.SensorNotFoundException;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)
 public final class Preconditions {

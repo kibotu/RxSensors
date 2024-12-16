@@ -1,4 +1,4 @@
-package com.gvillani.rxsensors.exceptions;
+package net.kibotu.rxsensors.exceptions;
 
 public class SensorNotFoundException extends RuntimeException {
     /**
