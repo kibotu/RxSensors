@@ -25,7 +25,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'net.kibotu:SequentialImagePlayer:{latest-version}'
+    implementation 'net.kibotu:RxSensors:{latest-version}'
 }
 
 ```
@@ -41,7 +41,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'com.github.kibotu:SequentialImagePlayer:{latest-version}'
+    implementation 'com.github.kibotu:RxSensors:{latest-version}'
 }
 ```
 
