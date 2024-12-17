@@ -11,6 +11,7 @@ buildscript {
 
     dependencies {
         classpath plugin.gradleBuildTools
+        classpath plugin.kotlinGradle
         classpath plugin.mavenCentralPublish
     }
 }

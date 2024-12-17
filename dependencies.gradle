@@ -20,7 +20,8 @@ ext {
 
 ext.plugin = [
         mavenCentralPublish: "com.vanniktech:gradle-maven-publish-plugin:0.30.0",
-        gradleBuildTools   : "com.android.tools.build:gradle:8.7.3",
+        gradleBuildTools: "com.android.tools.build:gradle:8.7.3",
+        kotlinGradle    : "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion",
 ]
 
 ext.libs = [
